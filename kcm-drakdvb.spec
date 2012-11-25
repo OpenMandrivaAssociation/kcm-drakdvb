@@ -10,8 +10,9 @@ License:        GPLv3+
 Group:          Graphical desktop/KDE
 Summary:        A KDE Control Module for launching drakdvb
 Version:        1.0
-Release:        1
+Release:        2
 Source0:        %{name}-%{version}.tar.gz
+Suggests:       dvbsubs
 
 %description
 Drakdvb launcher for KDE Control Center
@@ -28,7 +29,6 @@ cd .. && %make
 make -C build DESTDIR=%buildroot install
 
 %files
-%defattr(-,root,root)
 %doc
 %{_datadir}/kde4/services/kcm_drakdvb.desktop
 %{_kde_libdir}/kde4/kcm_drakdvb.so
