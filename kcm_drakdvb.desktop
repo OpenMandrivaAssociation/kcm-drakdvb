@@ -6,9 +6,11 @@ Exec=drakdvb
 
 X-KDE-System-Settings-Parent-Category=system-administration
 
-Name=Drakdvb
-Comment=Configure DVD devices
+Name=DVB devices
+Name[ru]=Цифровое ТВ
 
+Comment=Configure DVB devices
+Comment[ru]=Настройка каналов цифрового телевидения
 
 X-KDE-Keywords=packages
 Categories=Qt;KDE;X-KDE-information;
