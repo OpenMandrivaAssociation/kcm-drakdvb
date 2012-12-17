@@ -1,0 +1,14 @@
+[Desktop Entry]
+Icon=/usr/share/libDrakX/pixmaps/dvb-48.png
+Type=Service
+X-KDE-ServiceTypes=SystemSettingsExternalApp
+Exec=drakdvb
+
+X-KDE-System-Settings-Parent-Category=system-administration
+
+Name=Drakdvb
+Comment=Configure DVD devices
+
+
+X-KDE-Keywords=packages
+Categories=Qt;KDE;X-KDE-information;
