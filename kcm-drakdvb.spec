@@ -1,3 +1,5 @@
+%define _kde_services %{_datadir}/kde4/services
+
 Name:           kcm-drakdvb
 License:        GPLv3+
 Group:          Graphical desktop/KDE
