@@ -19,7 +19,7 @@ Drakdvb launcher for KDE Control Center
 
 %install
 mkdir -p %{buildroot}%{_kde_services}
-cp -f %{SOURCE0} %{buildroot}%{_kde_services}/
+install -m 644 %{SOURCE0} %{buildroot}%{_kde_services}/
 
 %files
 %doc
