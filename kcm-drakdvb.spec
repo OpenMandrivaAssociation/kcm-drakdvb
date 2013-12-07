@@ -5,7 +5,7 @@ License:        GPLv3+
 Group:          Graphical desktop/KDE
 Summary:        A KDE Control Module for launching drakdvb
 Version:        1.0
-Release:        5
+Release:        6
 BuildArch:      noarch
 Source0:        kcm_drakdvb.desktop
 Suggests:       dvbsubs
